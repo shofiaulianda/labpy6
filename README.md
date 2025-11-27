@@ -70,7 +70,44 @@
                 │
                 │
                 ▼
-           (Kembali ke MENU)
-           
+           (Kembali ke MENU)    
+    ```
+    Fungsi-Fungsi dalam Program
+1. tambah()
+
+Digunakan untuk menambahkan data mahasiswa baru.
+Program akan meminta:
+
+Nama mahasiswa
+
+Nilai mahasiswa
+
+Kemudian data akan disimpan pada dictionary data_mahasiswa.
+
+2. tampilkan()
+
+Menampilkan seluruh data mahasiswa yang tersimpan.
+Jika data masih kosong, program menampilkan pesan “Data masih kosong.”
+
+Data ditampilkan dalam format:
+```
+Nama: <nama> | Nilai: <nilai>
+```
+
+3. hapus(nama)
+
+Menghapus data mahasiswa berdasarkan nama.
+
+*Jika nama ditemukan → data akan dihapus
+
+*Jika tidak ditemukan → muncul pesan “Data 'nama' tidak ditemukan.”
+
+4. ubah(nama)
+
+Mengubah nilai mahasiswa berdasarkan nama.
+
+*Jika nama ada → pengguna memasukkan nilai baru
+
+*Jika nama tidak ada → muncul pesan “Data ‘nama’ tidak ditemukan.”
 
 
